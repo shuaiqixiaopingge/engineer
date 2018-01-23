@@ -10,6 +10,7 @@
       <TargetName>Engineer</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32F427IIHx</Device>
@@ -522,6 +523,11 @@
               <FileName>UpperTask.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Tasks\Src\UpperTask.c</FilePath>
+            </File>
+            <File>
+              <FileName>visualscope.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Tasks\Src\visualscope.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -1,4 +1,4 @@
---cpu Cortex-M4.fp
+--cpu=Cortex-M4.fp
 ".\engineer\stm32f4xx_hal_rcc_ex.o"
 ".\engineer\stm32f4xx_hal_tim_ex.o"
 ".\engineer\stm32f4xx_hal_uart.o"
@@ -27,6 +27,7 @@
 ".\engineer\judgetask.o"
 ".\engineer\manifoldtask.o"
 ".\engineer\uppertask.o"
+".\engineer\visualscope.o"
 ".\engineer\system_stm32f4xx.o"
 ".\engineer\main.o"
 ".\engineer\gpio.o"
@@ -39,7 +40,6 @@
 ".\engineer\spi.o"
 ".\engineer\startup_stm32f427xx.o"
 --library_type=microlib --strict --scatter ".\Engineer\Engineer.sct"
-
 --diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "Engineer.map" -o .\Engineer\Engineer.axf
