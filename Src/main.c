@@ -161,6 +161,7 @@ int main(void)
 		VisualScope(&huart3,0,0,0,0);
 		//IMU数据更新放在主循环中
 		IMURefresh();
+		
   }
   /* USER CODE END 3 */
 
